@@ -1,6 +1,7 @@
 @echo off
+
 chcp 65001 >nul
-:: 65001 - UTF-8
+
 title DeePsHell Launcher
 color 0A
 
@@ -50,15 +51,15 @@ echo    ╠═══════════════════════
 echo    ║                                           ║
 echo    ║   STANDARD:                               ║
 echo    ║   [1] General (ALL)                       ║
-echo    ║   [2] General (ALL) + nSt                 ║
+echo    ║   [2] General (ALL) + nGa                 ║
 echo    ║   [3] General (ALL) + nCl                 ║
-echo    ║   [4] General (ALL) + nCl + nSt           ║
+echo    ║   [4] General (ALL) + nCl + nGa           ║
 echo    ║                                           ║
 echo    ║   HIDE:                                   ║
 echo    ║   [5] Hide (ALL)                          ║
-echo    ║   [6] Hide (ALL) + nSt                    ║
+echo    ║   [6] Hide (ALL) + nGa                    ║
 echo    ║   [7] Hide (ALL) + nCl                    ║
-echo    ║   [8] Hide (ALL) + nCl + nSt              ║
+echo    ║   [8] Hide (ALL) + nCl + nGa              ║
 echo    ║                                           ║
 echo    ║   [9] Back                                ║
 echo    ║                                           ║
@@ -77,11 +78,11 @@ if "%all_choice%"=="1" (
     )
 )
 if "%all_choice%"=="2" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (ALL) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (ALL) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (ALL) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (ALL) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (ALL) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (ALL) (nGa).bat"
         pause
         goto all_mode
     )
@@ -97,11 +98,11 @@ if "%all_choice%"=="3" (
     )
 )
 if "%all_choice%"=="4" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL) (nGa).bat"
         pause
         goto all_mode
     )
@@ -117,11 +118,11 @@ if "%all_choice%"=="5" (
     )
 )
 if "%all_choice%"=="6" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL) (nGa).bat"
         pause
         goto all_mode
     )
@@ -137,11 +138,11 @@ if "%all_choice%"=="7" (
     )
 )
 if "%all_choice%"=="8" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL) (nGa).bat"
         pause
         goto all_mode
     )
@@ -160,15 +161,15 @@ echo    ╠═══════════════════════
 echo    ║                                           ║
 echo    ║   STANDARD:                               ║
 echo    ║   [1] General (ALL2)                      ║
-echo    ║   [2] General (ALL2) + nSt                ║
+echo    ║   [2] General (ALL2) + nGa                ║
 echo    ║   [3] General (ALL2) + nCl                ║
-echo    ║   [4] General (ALL2) + nCl + nSt          ║
+echo    ║   [4] General (ALL2) + nCl + nGa          ║
 echo    ║                                           ║
 echo    ║   HIDE:                                   ║
 echo    ║   [5] Hide (ALL2)                         ║
-echo    ║   [6] Hide (ALL2) + nSt                   ║
+echo    ║   [6] Hide (ALL2) + nGa                   ║
 echo    ║   [7] Hide (ALL2) + nCl                   ║
-echo    ║   [8] Hide (ALL2) + nCl + nSt             ║
+echo    ║   [8] Hide (ALL2) + nCl + nGa             ║
 echo    ║                                           ║
 echo    ║   [9] Back                                ║
 echo    ║                                           ║
@@ -187,11 +188,11 @@ if "%all2_choice%"=="1" (
     )
 )
 if "%all2_choice%"=="2" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (ALL2) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (ALL2) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (ALL2) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (ALL2) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (ALL2) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (ALL2) (nGa).bat"
         pause
         goto all2_mode
     )
@@ -207,11 +208,11 @@ if "%all2_choice%"=="3" (
     )
 )
 if "%all2_choice%"=="4" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (nCl) (ALL2) (nGa).bat"
         pause
         goto all2_mode
     )
@@ -227,11 +228,11 @@ if "%all2_choice%"=="5" (
     )
 )
 if "%all2_choice%"=="6" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (ALL2) (nGa).bat"
         pause
         goto all2_mode
     )
@@ -247,11 +248,11 @@ if "%all2_choice%"=="7" (
     )
 )
 if "%all2_choice%"=="8" (
-    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nSt).bat" (
-        call "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nSt).bat"
+    if exist "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nGa).bat" (
+        call "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nGa).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nSt).bat"
+        echo Файл не найден: "%LAUNCHER_PATH%General (PsHell) (Hide) (nCl) (ALL2) (nGa).bat"
         pause
         goto all2_mode
     )
@@ -271,14 +272,14 @@ echo    ║                                           ║
 echo    ║   STANDARD:                               ║
 echo    ║   [1] General (Base)                      ║
 echo    ║   [2] General (Base) + nCl                ║
-echo    ║   [3] General (Base) + nSt                ║
-echo    ║   [4] General (Base) + nCl + nSt          ║
+echo    ║   [3] General (Base) + nGa                ║
+echo    ║   [4] General (Base) + nCl + nGa          ║
 echo    ║                                           ║
 echo    ║   HIDE:                                   ║
 echo    ║   [5] Hide (Base)                         ║
 echo    ║   [6] Hide (Base) + nCl                   ║
-echo    ║   [7] Hide (Base) + nSt                   ║
-echo    ║   [8] Hide (Base) + nCl + nSt             ║
+echo    ║   [7] Hide (Base) + nGa                   ║
+echo    ║   [8] Hide (Base) + nCl + nGa             ║
 echo    ║                                           ║
 echo    ║   [9] Back                                ║
 echo    ║                                           ║
@@ -383,7 +384,10 @@ echo    ║   [2]  Telegram                           ║
 echo    ║   [3]  Messenger                          ║
 echo    ║   [4]  Youtube                            ║
 echo    ║   [5]  MineCraft                          ║
+echo    ║   [r]  Roblox                             ║
+echo    ║                                           ║
 echo    ╠═══════════════════════════════════════════╣
+echo    ║                                           ║
 echo    ║   Вариант 2                               ║
 echo    ║   [6]  Discord (2)                        ║
 echo    ║   [7]  Telegram (2)                       ║
@@ -395,6 +399,28 @@ echo    ║                                           ║
 echo    ╚═══════════════════════════════════════════╝
 echo.
 set /p other_choice="   Select: "
+
+if "%other_choice%"=="r" (
+    if exist "%LAUNCHER_PATH%Roblox (PsHell).bat" (
+        call "%LAUNCHER_PATH%Roblox (PsHell).bat"
+        goto process_complete
+    ) else (
+        echo Файл не найден: "%LAUNCHER_PATH%Roblox (PsHell).bat"
+        pause
+        goto other_mode
+    )
+)
+
+if "%other_choice%"=="R" (
+    if exist "%LAUNCHER_PATH%Roblox (PsHell).bat" (
+        call "%LAUNCHER_PATH%Roblox (PsHell).bat"
+        goto process_complete
+    ) else (
+        echo Файл не найден: "%LAUNCHER_PATH%Roblox (PsHell).bat"
+        pause
+        goto other_mode
+    )
+)
 
 if "%other_choice%"=="1" (
     if exist "%LAUNCHER_PATH%Discord (PsHell).bat" (
@@ -498,40 +524,137 @@ echo    ╔═══════════════════════
 echo    ║              Доп. Функции                 ║
 echo    ╠═══════════════════════════════════════════╣
 echo    ║                                           ║
-echo    ║   [1] Очисткак Temp                       ║
-echo    ║   [2] Тест Соеденения (Токо 1 на 1)       ║
+echo    ║   [1] Очистка Temp                        ║
+echo    ║   [2] Тест Соединения (Токо 1 на 1)       ║
+echo    ║   [3] Настройки DNS (Токо 1 на 1)         ║
 echo    ║                                           ║
-echo    ║   [9] Back                                ║
+echo    ║   [9] Обратно                             ║
 echo    ║                                           ║
 echo    ╚═══════════════════════════════════════════╝
 echo.
 set /p pro="   Select: "
 
 if "%pro%"=="1" (
-    if exist "%LAUNCHER_PATH%Очисткак Temp.bat" (
-        call "%LAUNCHER_PATH%Очисткак Temp.bat"
+    if exist "%LAUNCHER_PATH%Очистка Temp.bat" (
+        call "%LAUNCHER_PATH%Очистка Temp.bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%Очисткак Temp.bat
+        echo Файл не найден: "%LAUNCHER_PATH%Очистка Temp.bat"
         pause
         goto pro
     )
 )
 
 if "%pro%"=="2" (
-    if exist "%LAUNCHER_PATH%Тест Соеденения(Токо 1 на 1).bat" (
-        call "%LAUNCHER_PATH%Тест Соеденения(Токо 1 на 1).bat"
+    if exist "%LAUNCHER_PATH%Тест Соединения(Токо 1 на 1).bat" (
+        call "%LAUNCHER_PATH%Тест Соединения(Токо 1 на 1).bat"
         goto process_complete
     ) else (
-        echo Файл не найден: "%LAUNCHER_PATH%Тест Соеденения(Токо 1 на 1).bat
+        echo Файл не найден: "%LAUNCHER_PATH%Тест Соединения(Токо 1 на 1).bat"
         pause
         goto pro
     )
 )
 
+if "%pro%"=="3" (
+    goto dns_settings
+)
+
 if "%pro%"=="9" goto main
 
 goto pro
+
+:dns_settings
+cls
+echo.
+echo      ╔═══════════════════════════════════════════╗
+echo      ║           Настройка DNS серверов          ║
+echo      ╚═══════════════════════════════════════════╝
+
+:dns_menu
+cls
+echo    ╔════════════════════════════════════════════════╗
+echo    ║              Выберите действие:                ║
+echo    ╠════════════════════════════════════════════════╣
+echo    ║ [1] - Установить DNS 8.8.8.8 и 8.8.4.4         ║
+echo    ║ [2] - Восстановить автоматическое получение DNS║
+echo    ║ [3] - Показать текущие настройки DNS           ║
+echo    ║ [4] - Проверить соединение с DNS               ║
+echo    ║ [5] - Выход в меню Доп. Функций                ║
+echo    ╚════════════════════════════════════════════════╝
+echo.
+set /p dns_choice="Введите номер [1-5]: "
+
+if "%dns_choice%"=="1" goto SET_DNS
+if "%dns_choice%"=="2" goto RESET_DNS
+if "%dns_choice%"=="3" goto SHOW_DNS
+if "%dns_choice%"=="4" goto TEST_DNS
+if "%dns_choice%"=="5" goto pro
+
+echo Неверный выбор! Нажмите любую клавишу...
+pause > nul
+goto dns_menu
+
+:SET_DNS
+echo.
+echo Получаем список сетевых подключений...
+netsh interface show interface
+echo.
+set /p adapter="Введите имя сетевого адаптера: "
+
+echo.
+echo Устанавливаем DNS серверы...
+netsh interface ip set dns name="%adapter%" static 8.8.8.8 primary
+netsh interface ip add dns name="%adapter%" 8.8.4.4 index=2
+
+echo.
+echo DNS успешно установлены!
+echo Основной DNS: 8.8.8.8
+echo Альтернативный DNS: 8.8.4.4
+echo.
+pause
+goto dns_menu
+
+:RESET_DNS
+echo.
+echo Получаем список сетевых подключений...
+netsh interface show interface
+echo.
+set /p adapter="Введите имя сетевого адаптера: "
+
+echo.
+echo Восстанавливаем автоматическое получение DNS...
+netsh interface ip set dns name="%adapter%" dhcp
+
+echo.
+echo Настройки DNS сброшены!
+echo.
+pause
+goto dns_menu
+
+:SHOW_DNS
+echo.
+echo Текущие настройки DNS:
+ipconfig /all | findstr "DNS"
+echo.
+pause
+goto dns_menu
+
+:TEST_DNS
+echo.
+echo Проверяем соединение с DNS серверами...
+echo.
+echo Проверка 8.8.8.8:
+ping -n 2 8.8.8.8
+echo.
+echo Проверка 8.8.4.4:
+ping -n 2 8.8.4.4
+echo.
+echo Проверка разрешения имен:
+nslookup google.com 8.8.8.8
+echo.
+pause
+goto dns_menu
 
 :process_complete
 echo.
